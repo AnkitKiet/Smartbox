@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"></include>
+<LinearLayout
+    android:id="@+id/ll"
+    android:layout_below="@id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+</LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/edtSub"
+        android:editable="true"
+        android:layout_marginTop="-40sp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/input_edt"
+        android:hint="  Please Write A Valid Complain..."
+        android:layout_alignParentLeft="true"
+        android:elevation="6dp"
+        android:layout_alignParentStart="true"
+        android:maxLines="6"
+        android:nestedScrollingEnabled="true"
+        android:lines="6"
+        android:textSize="20sp"
+        android:layout_below="@+id/ll" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Complaint"
+        android:id="@+id/btnSub"
+        android:textSize="17sp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

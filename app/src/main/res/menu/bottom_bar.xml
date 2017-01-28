@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_canteen"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:title="Canteen"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_fastfood"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_fastfood"
+        android:title="FastFood"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_mess"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_mess"
+        android:title="Mess"
+        app:showAsAction="ifRoom" />
+
+</menu>

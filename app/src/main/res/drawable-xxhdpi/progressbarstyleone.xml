@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"> <!-- Remove <selector> wehn you are using <layer-list> -->
+    <item>
+        <!-- Our grey ring, 1st element of our list -->
+        <shape android:shape="ring"
+            android:useLevel="false"
+            android:innerRadius="20dp"
+            android:thicknessRatio="14"> <!-- Higher values, thinner line -->
+            <solid android:color="#bdc3c7"> </solid>
+        </shape>
+    </item>
+
+
+
+    <item>
+        <!-- Our red ring, 2nd element of our list -->
+        <shape android:shape="ring"
+            android:useLevel="true"
+            android:innerRadius="20dp"
+            android:thicknessRatio="14">
+            <solid android:color="#067BC2"> </solid>
+        </shape>
+    </item>
+</layer-list>

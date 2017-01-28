@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@color/tcolorPrimary"
+        app:theme="@style/AppTheme.ActionBar"
+        android:id="@+id/toolbar"
+        app:titleTextAppearance="@style/Toolbar.TitleText" />
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/tcolorPrimary"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/edtSub"
+        android:editable="true"
+        android:layout_marginTop="-40sp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/round_edit"
+        android:hint="  Please Write The Assignment..."
+        android:layout_alignParentLeft="true"
+        android:elevation="6dp"
+        android:layout_alignParentStart="true"
+        android:maxLines="6"
+        android:nestedScrollingEnabled="true"
+        android:lines="6"
+        android:textSize="20sp"
+        android:layout_below="@+id/ll" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Assignment"
+        android:id="@+id/btnSub"
+        android:textSize="17sp"
+        android:background="@color/tcolorAccent"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

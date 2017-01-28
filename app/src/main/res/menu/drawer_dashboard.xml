@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/feed"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profile"
+            android:checked="false"
+            android:icon="@mipmap/profilee"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/complain"
+            android:checked="false"
+            android:icon="@mipmap/complain"
+            android:title="@string/complain" />
+
+
+        <item
+            android:id="@+id/calender"
+            android:checked="false"
+            android:icon="@mipmap/ic_date_black"
+            android:title="@string/calen" />
+
+    </group>
+
+    <group
+        android:id="@+id/app"
+        android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@mipmap/ic_call_black"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/rateus"
+            android:icon="@mipmap/ic_star_black"
+            android:title="@string/rate" />
+
+        <item
+            android:id="@+id/privacy"
+            android:icon="@drawable/privacy"
+            android:title="@string/privacy" />
+
+
+    </group>
+
+
+</menu>
